@@ -2,7 +2,7 @@ import cv2
 import os
 import time
 
-
+#Handles the graphics screens shown at the start and end of game plus inbetween.
 
 def show_start_screen():
     

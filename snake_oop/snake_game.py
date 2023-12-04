@@ -101,7 +101,7 @@ class SnakeGame(gg.GameObject):
                     break
             self.apple_pos = gg.GridPosition(x=apple_x, y=apple_y)
             self.score += 1
-            #change speed by 20% each time an apple is eaten.
+            #change speed by 20% each time an apple is eaten. IF the setting is enabled.
             if(self.apple_multiplier):
                 self.grid_game.timestep *= 0.8
                 

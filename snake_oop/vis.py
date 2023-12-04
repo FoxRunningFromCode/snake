@@ -15,7 +15,7 @@ WHITE = (1., 1., 1.)
 BLACK = (0., 0., 0.)
 GREY = (0.5,0.5,0.5)
 
-
+#Function to draw circles at a position.
 def draw_circle(img: np.ndarray, pos: gg.GridPosition, color: Color, cell_length_px: int, size=1., fill=False):
     x, y = [int((p + 0.5) * cell_length_px) for p in (pos.x, pos.y)]
     radius = int(round(cell_length_px / 2 * size))
@@ -24,7 +24,7 @@ def draw_circle(img: np.ndarray, pos: gg.GridPosition, color: Color, cell_length
         color=color, thickness=-1 if fill else 2,
     )
 
-
+#Function to draw squares at a position
 def draw_square(img: np.ndarray, top_left: tuple[int, int], side_length: int, color: Color, fill: bool = False):
     x, y = top_left
     if fill:
