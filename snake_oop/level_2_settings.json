@@ -1,0 +1,14 @@
+{
+      "width": 20,
+      "height": 30,
+      "timestep": 0.20,
+      "block_list": [
+        [2, 2],
+        [8, 10],
+        [15, 25]
+      ],
+      "apple_speed_enabled": true,
+      "title": "Fast game with few walls! Get 4 Apples! Each apple increases your speed by 20%",
+      "titletime": 2,
+      "goal": 4
+  }   

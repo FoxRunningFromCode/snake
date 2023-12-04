@@ -1,0 +1,12 @@
+{
+
+      "width": 22,
+      "height": 23,
+      "timestep": 0.25,
+      "block_list": [],
+      "apple_speed_enabled": false,
+      "title": "vanilla game! Get 3 apples!",
+      "titletime": 2,
+      "goal": 3
+
+  }
