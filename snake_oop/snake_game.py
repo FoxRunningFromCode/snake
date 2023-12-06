@@ -3,7 +3,7 @@ import cv2
 
 import grid_game as gg
 import vis
-import functools
+
 
 
 
@@ -97,7 +97,7 @@ class SnakeGame(gg.GameObject):
             while True:
                 apple_x, apple_y = list(np.random.randint(low=(0, 0), high=(self.grid.width, self.grid.height)))
                 
-                if tuple(list[apple_x, apple_y]) not in occupied_positions:
+                if tuple([apple_x, apple_y]) not in occupied_positions:
                     break
             self.apple_pos = gg.GridPosition(x=apple_x, y=apple_y)
             self.score += 1
